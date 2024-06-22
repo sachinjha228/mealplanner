@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.029d43d1.css",
-    "main.js": "/static/js/main.db934148.js",
-    "static/js/453.8ee6ed8a.chunk.js": "/static/js/453.8ee6ed8a.chunk.js",
-    "index.html": "/index.html",
-    "main.029d43d1.css.map": "/static/css/main.029d43d1.css.map",
-    "main.db934148.js.map": "/static/js/main.db934148.js.map",
-    "453.8ee6ed8a.chunk.js.map": "/static/js/453.8ee6ed8a.chunk.js.map"
+    "main.css": "/mealplanner/static/css/main.029d43d1.css",
+    "main.js": "/mealplanner/static/js/main.52f39e70.js",
+    "static/js/453.8ee6ed8a.chunk.js": "/mealplanner/static/js/453.8ee6ed8a.chunk.js",
+    "index.html": "/mealplanner/index.html",
+    "main.029d43d1.css.map": "/mealplanner/static/css/main.029d43d1.css.map",
+    "main.52f39e70.js.map": "/mealplanner/static/js/main.52f39e70.js.map",
+    "453.8ee6ed8a.chunk.js.map": "/mealplanner/static/js/453.8ee6ed8a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.029d43d1.css",
-    "static/js/main.db934148.js"
+    "static/js/main.52f39e70.js"
   ]
 }
