@@ -1,0 +1,66 @@
+[
+    {
+        "name": "Oatmeal",
+        "category": "Breakfast",
+        "calories": 150,
+        "protein": 5,
+        "carbs": 27,
+        "fats": 3
+     },
+     {
+        "name": "Greek Yogurt",
+        "category": "Breakfast",
+        "calories": 100,
+        "protein": 10,
+        "carbs": 6,
+        "fats": 4
+     },
+     {
+        "name": "Chicken Breast",
+        "category": "Lunch",
+        "calories": 165,
+        "protein": 31,
+        "carbs": 0,
+        "fats": 3.6
+     },
+     {
+        "name": "Quinoa Salad",
+        "category": "Lunch",
+        "calories": 222,
+        "protein": 8,
+        "carbs": 39,
+        "fats": 3.5
+     },
+     {
+        "name": "Almonds",
+        "category": "Snacks",
+        "calories": 160,
+        "protein": 6,
+        "carbs": 6,
+        "fats": 14
+     },
+     {
+        "name": "Apple",
+        "category": "Snacks",
+        "calories": 52,
+        "protein": 0.3,
+        "carbs": 14,
+        "fats": 0.2
+      },
+     {
+        "name": "Grilled Salmon",
+        "category": "Dinner",
+        "calories": 206,
+        "protein": 22,
+        "carbs": 0,
+        "fats": 12
+     },
+     {
+        "name": "Steamed Broccoli",
+        "category": "Dinner",
+        "calories": 55,
+        "protein": 4,
+        "carbs": 11,
+        "fats": 0.6
+     }
+]

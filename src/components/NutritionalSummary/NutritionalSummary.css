@@ -1,0 +1,26 @@
+.nutritional-summary {
+    background-color: #ffffff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-top: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: calc(50%);
+  }
+
+  .nutritional-summary h2 {
+    text-align: center;
+    color: #007bff; 
+  }
+
+  .nutritional-summary p {
+    text-align: center;
+    margin: 10px 0;
+    font-size: 1.1em;
+  }
+
+  
+  .nutritional-summary p {
+    color: #333;
+  }
+  

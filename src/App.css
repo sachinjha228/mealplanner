@@ -1,38 +1,112 @@
-.App {
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+h1 {
+  text-align: center;
+  color: #007bff;
+}
+
+h2 {
+  color: #533b68;
+}
+
+h3 {
+  color: #007bff;
+}
+
+.desktop-view {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.nutritional-details{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  
+}
+
+.food-items, .selected-foods {
+  flex: 1;
+}
+
+.food-items h2, .selected-foods h2 {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.mobile-view {
+  display: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.actions {
+  text-align: center;
+  margin-top: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+button {
+  margin: 5px;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.app-header {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: #f8f9fa;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin-bottom: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.app-header h1 {
+  margin: 0 20px;
+  color: #6B5280;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.app-logo {
+  width: 50px;
+  height: 50px;
+}
+
+@media (max-width: 768px) {
+  .desktop-view {
+    display: none;
   }
-  to {
-    transform: rotate(360deg);
+
+  .mobile-view {
+    display: block;
+  }
+
+  .meal-category-mobile {
+    margin-bottom: 20px;
   }
 }

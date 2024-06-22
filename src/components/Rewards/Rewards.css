@@ -1,0 +1,71 @@
+.rewards {
+    background-color: #f8f9fa;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 50%
+  }
+  
+  .rewards h2 {
+    text-align: center;
+    color: #007bff; 
+  }
+  
+  .rewards p {
+    text-align: center;
+    margin: 10px 0;
+    font-size: 1.1em;
+  }
+  
+  .reward-details {
+    margin-top: 10px;
+  }
+  
+  .reward-details p {
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .reward-details {
+    margin-top: 10px;
+  }
+  
+  .reward-message {
+    text-align: center;
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    animation: blinkAnimation 5s infinite;
+  }
+  
+  .reward-message-red {
+    background-color: #ffc0cb; 
+    color: #dc3545;
+  }
+  
+  .reward-message-blue {
+    background-color: #bee5eb;
+    color: #007bff;
+  }
+  
+  .reward-message-green {
+    background-color: #d4edda;
+    color: #28a745;
+  }
+  
+  @keyframes blinkAnimation {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+
+  

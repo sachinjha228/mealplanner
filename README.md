@@ -1,8 +1,66 @@
-# Getting Started with Create React App
+# Meal Planner App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the Meal Planner App! This application allows users to plan their meals, track nutritional intake, and earn rewards for balanced nutrition.
+
+## Features
+
+- **Meal Planner Section:**
+  - Display meal categories: Breakfast, Lunch, Dinner, Snacks.
+  - Select foods from a predefined list with nutritional information.
+  - Add multiple items to each meal category.
+  
+- **Food Database:**
+  - Predefined list of foods with calories, protein, carbs, fats loaded from JSON.
+  - Foods displayed in scrollable or searchable list.
+  
+- **Selected Foods Display:**
+  - Show selected foods for each meal category.
+  - Display nutritional information for each selected food item.
+  
+- **Nutritional Summary:**
+  - Calculate and display total nutritional intake for the day.
+  - Includes totals for calories, protein, carbs, and fats.
+  - Compare totals against recommended daily values.
+  
+- **Save and Reset Buttons:**
+  - Save current meal plan to LocalStorage.
+  - Reset clears all selected foods and resets the meal planner.
+  
+- **Rewards Mechanism:**
+  - Provides rewards for balanced meal planning based on points earned:
+    - 10 points for 200-500 calories.
+    - 20 points for 500-800 calories.
+    - 30 points for over 800 calories.
+  - Displays reward points earned with color-coded messages:
+    - Light red for 10 points.
+    - Light blue for 20 points.
+    - Light green for 30 points.
+
+## Technical Details
+
+- **React JS:**
+  - Implements meal planner logic using modern JavaScript (ES6).
+  - Uses original and modular code (ES6 classes or modules) for maintainability.
+  
+- **HTML and CSS:**
+  - Structured using semantic HTML5 elements.
+  - Styled for visual appeal and consistency using CSS.
+  - Responsive design for various screen sizes.
+
+## Installation and Setup
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/sachinjha228/mealplanner.git
+   cd meal-planner
+
 
 ## Available Scripts
+
+###  `npm install --save-dev ajv@^7`
+###  `npm install --save-dev @testing-library/user-event @testing-library/dom` 
+###  `npm install`
+
 
 In the project directory, you can run:
 
@@ -17,7 +75,6 @@ You may also see any lint errors in the console.
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
@@ -27,44 +84,3 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
