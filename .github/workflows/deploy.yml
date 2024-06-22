@@ -2,7 +2,7 @@ name: Meal Planner
 on:
   push:
     branches:
-      - master
+      - gh-pages
   workflow_dispatch:
 permissions:
   contents: read
