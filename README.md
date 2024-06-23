@@ -31,7 +31,7 @@ Welcome to the Meal Planner App! This application allows users to plan their mea
     - 10 points for 200-500 calories.
     - 20 points for 500-800 calories.
     - 30 points for over 800 calories.
-  - Displays reward points earned with color-coded messages:
+    - Displays reward points earned with color-coded messages:
     - Light red for 10 points.
     - Light blue for 20 points.
     - Light green for 30 points.
@@ -52,13 +52,11 @@ Welcome to the Meal Planner App! This application allows users to plan their mea
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/sachinjha228/mealplanner.git
-   cd meal-planner
+   cd mealplanner
 
 
 ## Available Scripts
-
-###  `npm install --save-dev ajv@^7`
-###  `npm install --save-dev @testing-library/user-event @testing-library/dom` 
+ 
 ###  `npm install`
 
 
@@ -84,3 +82,5 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
+### `npm run deploy`
+To deploy on github pages

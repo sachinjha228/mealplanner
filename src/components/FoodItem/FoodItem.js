@@ -8,11 +8,11 @@ const FoodItem = ({ food, onAddFood, isSelected }) => {
       onClick={() => !isSelected && onAddFood(food)}
     >
       <h3>{food.name}</h3>
-      <p>Calories: {food.calories}</p>
+      <p>Calories: {food.calories}kcl</p>
       <p>Protein: {food.protein}g</p>
       <p>Carbs: {food.carbs}g</p>
       <p>Fats: {food.fats}g</p>
-      {isSelected && <p className="selected-label">Selected</p>}
+      {isSelected && <div className="selected-label">Added</div>}
     </div>
   );
 };

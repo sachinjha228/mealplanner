@@ -26,10 +26,6 @@
     text-align: center;
     font-weight: bold;
   }
-
-  .reward-details {
-    margin-top: 10px;
-  }
   
   .reward-message {
     text-align: center;
@@ -64,6 +60,16 @@
     }
     100% {
       opacity: 1;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .reward-point h2 {
+      font-size: 1.5em;
+    }
+  
+    .reward-details p {
+      font-size: .9em;
     }
   }
   

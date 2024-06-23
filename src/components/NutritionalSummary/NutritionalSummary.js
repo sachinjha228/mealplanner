@@ -5,10 +5,10 @@ const NutritionalSummary = ({ summary }) => {
   return (
     <div className="nutritional-summary">
       <h2>Nutritional Summary</h2>
-      <p>Calories: {summary.calories}kcl</p>
-      <p>Protein: {summary.protein}g</p>
-      <p>Carbs: {summary.carbs}g</p>
-      <p>Fats: {summary.fats}g</p>
+      <p>Calories: {summary.calories.toFixed(2)}kcl</p>
+      <p>Protein: {summary.protein.toFixed(2)}g</p>
+      <p>Carbs: {summary.carbs.toFixed(2)}g</p>
+      <p>Fats: {summary.fats.toFixed(2)}g</p>
     </div>
   );
 };

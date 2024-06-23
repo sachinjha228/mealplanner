@@ -4,9 +4,11 @@ import SelectedFoods from './components/SelectedFoods/SelectedFoods';
 import NutritionalSummary from './components/NutritionalSummary/NutritionalSummary';
 import Rewards from './components/Rewards/Rewards';
 import Button from './components/common/Button/Button';
+import Footer from './components/common/Footer/Footer';
 import foodsData from './data/foods.json';
 import './App.css';
 import logo from './assets/icons8-meal-64.png';
+import Header from './components/common/Header/Header';
 
 const App = () => {
   const [selectedFoods, setSelectedFoods] = useState({
@@ -84,11 +86,8 @@ const App = () => {
 
   return (
     <div className="app">
-      <header className="app-header">
-        <img src={logo} alt="logo" className="app-logo" />
-        <h1>Meal Planner</h1>
-        <img src={logo} alt="logo" className="app-logo" />
-      </header>
+      <Header/>
+      <main>
       <div className="nutritional-details">
           <NutritionalSummary summary={summary} />
           <Rewards summary={summary} />
@@ -96,7 +95,7 @@ const App = () => {
       <div className="desktop-view">
         <div className="food-items">
           <h2>All Food Items</h2>
-          {['Breakfast', 'Lunch', 'Dinner', 'Snacks'].map(meal => (
+          {['Breakfast', 'Lunch', 'Snacks', 'Dinner'].map(meal => (
             <MealCategory
               key={meal}
               category={meal}
@@ -108,7 +107,7 @@ const App = () => {
         </div>
         <div className="selected-foods">
           <h2>Selected Foods</h2>
-          {['Breakfast', 'Lunch', 'Dinner', 'Snacks'].map(meal => (
+          {['Breakfast', 'Lunch', 'Snacks', 'Dinner'].map(meal => (
             <SelectedFoods
               key={meal}
               meal={meal}
@@ -119,7 +118,7 @@ const App = () => {
         </div>
       </div>
       <div className="mobile-view">
-        {['Breakfast', 'Lunch', 'Dinner', 'Snacks'].map(meal => (
+        {['Breakfast', 'Lunch', 'Snacks', 'Dinner'].map(meal => (
           <div key={meal} className="meal-category-mobile">
             <MealCategory
               category={meal}
@@ -139,8 +138,11 @@ const App = () => {
         <Button onClick={handleSave} label="Save" type="save" />
         <Button onClick={handleReset} label="Reset" type="reset" />
       </div>
+      </main>
+      <Footer/>
     </div>
   );
 };
 
 export default App;
+

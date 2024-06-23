@@ -23,6 +23,7 @@
   .food-item.selected {
     background-color: #d4edda;
     border-color: #c3e6cb;
+    position: relative;
   }
   
   .food-item.selected:hover {
@@ -31,11 +32,38 @@
   }
   
   .selected-label {
-    color: #155724;
     font-weight: bold;
     position: absolute;
-    top: 10px;
+    top: 15px;
     right: 10px;
+    position: absolute;
+    background-color: #3c763d;
+    color: white;
+    padding: 3px 7px;
+    border-radius: 5px;
+    font-size: 0.8em;
+  }
+
+
+  @media (max-width: 600px) {
+    .food-item {
+      padding: 15px;
+    }
+    
+    .food-item h3 {
+      font-size: 1.5em;
+    }
+  
+    .food-item p {
+      font-size: 1em;
+    }
+  
+    .selected-label {
+      font-size: .6em;
+      padding: 4px 4px;
+      top: 3px;
+      right: 3px;
+    }
   }
   
   

@@ -8,6 +8,7 @@ const MealCategory = ({ category, foods, onAddFood, selectedFoods }) => {
   return (
     <div className="meal-category">
       <h2>{category}</h2>
+      <p className="instruction-message">Click on a food item to add it to your {category} list.</p>
       <div className="food-list">
         {foods.filter(food => food.category === category).map(food => (
           <FoodItem
@@ -23,3 +24,4 @@ const MealCategory = ({ category, foods, onAddFood, selectedFoods }) => {
 };
 
 export default MealCategory;
+
